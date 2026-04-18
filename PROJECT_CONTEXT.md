@@ -86,3 +86,16 @@ R SKILLS LEARNED:
 NEXT: Script 03 — DESeq2 differential expression
 - Compare 35 tumor vs 9 normal samples
 - Find which genes are ON/OFF in cancer
+### Script 03 complete
+- DESeq2 ran successfully on 44 samples
+- 6494 genes upregulated in tumor
+- 9939 genes downregulated in tumor
+- Total 16433 differentially expressed genes
+- Results saved to results/dds.rds and results/res.rds
+- Next was: Script 04 — Volcano plot
+
+### Script 04 complete
+- Volcano plot created and saved to figures/
+- Used ggsave() instead of png() — more reliable in WSL
+- Plot shows 16433 genes, red dots = significant candidates
+- Next: Script 05 — Pathway enrichment (clusterProfiler)
